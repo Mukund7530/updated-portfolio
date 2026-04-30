@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Responsive Premium Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-blur"></div>
+
+    <nav>
+        <div class="logo">Mukund<span>Rai</span></div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container-reveal">
+                <div class="hero-content">
+                    <h1>Hii I am <span class="highlight">MUKUND</span></h1>
+                    <p>A dedicated Educator and Web Developer with a knack for numbers and code.
+                        <br> I bridge the gap between complex Accounting principles and modern digital solutions,helping students</p>
+                    <br>
+                    <p>  master financial logic while building seamless web experiences."</p>
+                    <br>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary">View Work</a>
+                        <a href="MUKUND RAI 2-26 Resume pdf.pdf" class="btn secondary"
+                            download="MUKUND RAI 2-26 Resume pdf.pdf">Resume</a>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="hero-image">
+                    <img src="Gemini_Generated_Image_6v078n6v078n6v07.png" alt="Mukund Rai">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="reveal">Featured Work</h2>
+            <div class="project-grid">
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="Screenshot 2024-10-03 163915.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="#" class="view-btn">Live Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3> Homyz Property</h3>
+                        <p>E-commerce analytics with React.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="Screenshot 2025-07-20 132323.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="https://mukund7530.github.io/New-phone/"
+                                class="view-btn">Live Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Mobile shop UI</h3>
+                        <p>Modern Landing Page design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="ochire.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="https://mukund7530.github.io/ochire/" class="view-btn">Live
+                                Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Ochire web clone</h3>
+                        <p>Modern Landing Page design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-grid2">
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="Screenshot 2025-07-05 115037.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="https://mukund7530.github.io/Hello-Sword/"
+                                class="view-btn">Live Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3> Killer Sword website</h3>
+                        <p>The first website made for pc screen.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="image.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="https://mukund7530.github.io/Responsive-portfolio/"
+                                class="view-btn">Live Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>The Portfolio</h3>
+                        <p>Another Portfolio Design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="card-img">
+                        <div class="img"><img src="image copy.png" alt="Portfolio"></div>
+                        <div class="card-overlay"><a href="https://mukund7530.github.io/cars/" class="view-btn">Live
+                                Demo</a></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Speed-Fleet Design.</h3>
+                        <p>A Car website made for Pc Layout.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="reveal">My Skills</h2>
+            <h3 style="color: var(--primary);">Web-Development Skills</h3>
+            <div class="skills-container reveal">
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-desc">
+                        <p>Structuring clean, semantic, and SEO-friendly web content with the latest HTML5 standards.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-desc">
+                        <p>Creating beautiful layouts using Flexbox, Grid, and advanced animations for a premium feel.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-desc">
+                        <p>Adding logic and interactivity to web pages with modern ES6+ features and DOM manipulation.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fab fa-react"></i>
+                    <h3>React.js</h3>
+                    <div class="skill-desc">
+                        <p>Building scalable, component-based single page applications with React hooks and state
+                            management.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI Design</h3>
+                    <div class="skill-desc">
+                        <p>Designing user-centric interfaces with different references with a focus on usability and
+                            modern aesthetics.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <div class="skill-desc">
+                        <p>Ensuring websites look perfect on every device, from small mobile screens to large 4K
+                            monitors.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                    <div class="skill-desc">
+                        <p>GitHub is a web-based platform used for version control and collaboration, allowing
+                            developers to host, manage, and track changes.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-brands fa-sass"></i>
+                    <h3>Sass</h3>
+                    <div class="skill-desc">
+                        <p>Sass is a powerful CSS preprocessor that adds professional features like variables and nested
+                            rules to CSS.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-brands fa-tailwind-css"></i>
+                    <h3>Tailwind-Css</h3>
+                    <div class="skill-desc">
+                        <p>Tailwind CSS is a utility-first CSS framework that allows rapid UI development with
+                            pre-defined classes.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>MySQL</h3>
+                    <div class="skill-desc">
+                        <p>MySQL is a widely-used relational database management system (RDBMS) for efficient data
+                            storage and retrieval.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <h3 style="color: var(--primary);">Accounting skills</h3>
+            <div class="skills-container reveal">
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-file-word"></i>
+                    <h3>MS WORD</h3>
+                    <div class="skill-desc">
+                        <p>A powerful word processing tool used for creating professional documents, letters, and
+                            resumes.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-file-excel"></i>
+                    <h3>ADVANCE EXCEL</h3>
+                    <div class="skill-desc">
+                        <p>A spreadsheet program used for data organization, complex calculations, and creating
+                            informative charts.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                    <h3>MS POWERPOINT</h3>
+                    <div class="skill-desc">
+                        <p>A presentation software used to design impactful slides with text, images, and animations.
+                        </p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <h3>Tally PRIME</h3>
+                    <div class="skill-desc">
+                        <p>Comprehensive business management software used for accounting, inventory tracking, and GST
+                            filing.</p>
+                    </div>
+                </div>
+                <div class="skill-card" onclick="toggleSkill(this)">
+                    <i class="fa-solid fa-b"></i>
+                    <h3>Busy Accounting</h3>
+                    <div class="skill-desc">
+                        <p>A robust accounting tool designed for businesses to manage inventory, GST, and financial
+                            reports efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Certifications from the websites -->
+<section id="certificates" class="cert-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <p>The certificates which i have achieved during my internship period.</p>
+            </div>
+
+            <div class="cert-grid" id="cert-container">
+                <!-- Cards script.js se yahan aayenge -->
+            </div>
+        </div>
+    </section>
+
+
+<!-- Get in touch section -->
+        <section id="contact" class="contact-section">
+            <h2 class="reveal">Get In Touch</h2>
+            <div class="contact-container reveal">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required >
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>mukundkumarrai4@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91-83687-80636</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>📍Delhi, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <p> instagram : mukundray2465</p>
+                    </div>
+                    <h4>And the latest thing is you can search me on <span style="color: var(--primary);">Google</span> also!!</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Mukund<span>Rai</span></div>
+            <p>Building digital experiences with precision and passion.</p>
+            <div class="social-links">
+                <a href="https://github.com/Mukund7530"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mukund-kumar-rai-58bb88219/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009514398653"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mukundray2465/?hl=en"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mukund Rai. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
