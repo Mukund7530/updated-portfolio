@@ -100,6 +100,35 @@ nav {
   color: var(--primary);
   text-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
 }
+.highlight {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    /* Shiny Gradient Effect */
+    background: linear-gradient(
+        to right, 
+        #2926fa 20%, 
+        #fff 40%, 
+        #008cff 60%, 
+        #2926fa 80%
+    );
+    background-size: 200% auto;
+    color: #ffd700; /* Fallback color */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Animation call */
+    animation: shine 3s linear infinite;
+}
+
+/* Shiny Animation logic */
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
 .hero-btns {
   display: flex;
   justify-content: center;
@@ -499,7 +528,7 @@ footer {
   }
 
   .nav-links {
-    gap: 1rem;
+    gap: 0.7rem;
   }
 
   .nav-links a {
