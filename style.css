@@ -552,6 +552,36 @@ footer {
 
 /* Mobile Breakpoints (Under 768px) */
 @media (max-width: 768px) {
+  
+  .logo{
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    /* Shiny Gradient Effect */
+    background: linear-gradient(
+        to right, 
+        #0008ff 20%, 
+        #56d3e9 40%, 
+        #a8dbdf 60%, 
+        #0008ff 80%
+    );
+    background-size: 200% auto;
+    color: #ffd700; /* Fallback color */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Animation call */
+    animation: shine 3s linear infinite;
+}
+
+/* Shiny Animation logic */
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
   nav {
     flex-direction: column;
     /* gap: 0.5rem; */
